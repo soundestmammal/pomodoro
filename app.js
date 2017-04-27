@@ -6,6 +6,18 @@ $(document).ready(function(){
 	console.log(count);
 	$('#reset').hide();
 
+	$('#start').click(function(){
+		var counter = setInterval(timer , 1000);
+		function timer(){
+			count-=1
+			if (count===0){
+				buzzer.play();
+				clearInterval(counter);
+			}
+			$('#num').html(count);
+
+		}
+	});
 
 	$('#minus5Clock').click(function(){
 		if (count > 5){
@@ -35,4 +47,6 @@ $(document).ready(function(){
 		$('#breakNum').html(breakCount);
 		}
 	})
+
+
 });
