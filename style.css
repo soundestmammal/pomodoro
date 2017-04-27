@@ -1,4 +1,8 @@
 body {
-	background-image: url(http://unsplash.com/photos/PaNxe-QJwhE/download?force=true);
+	background-image: url(http://unsplash.com/photos/9CfHPa6YM4Y/download?force=true);
 	background-size: 100%;
+	background-attachment: fixed;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	
 }
