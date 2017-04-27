@@ -6,3 +6,11 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	
 }
+
+h2 {
+	display: inline;
+}
+
+#start {
+	margin: 10px;
+}
