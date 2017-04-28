@@ -21,7 +21,7 @@ $('#start').click(function(){
 				$("#num").hide();	
 			}
 			if (count%60 >=10){
-				$("#num").html(count/60+":"+count%60);
+				$("#num").html(Math.floor(count/60)+":"+count%60);
 			}
 			
 			function breakTimer(){
