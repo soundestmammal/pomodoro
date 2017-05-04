@@ -1,16 +1,39 @@
 body {
-	background-color: #41f480;
+	background-color: #363b44;
 	background-size: 100%;
 	background-attachment: fixed;
 	color: white;
 	font-family: 'Montserrat', sans-serif;
-	
 }
 
 h2 {
 	display: inline;
+
 }
 
 #start {
 	margin: 10px;
+}
+
+.container {
+	background-color: #f7f7f7;
+	margin-top: 100px;
+	width: 50%;
+	color: black;
+	border-radius: 10%;
+}
+
+.timeDiv {
+	margin-bottom: 20px;
+}
+
+.btn{
+	color: black;
+	border: 2px solid gray;
+}
+
+.btn:hover {
+	background-color: #363b44;
+	color: white;
+	
 }
